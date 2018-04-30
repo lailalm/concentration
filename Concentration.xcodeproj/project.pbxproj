@@ -12,6 +12,8 @@
 		AE4FAFBE2091A15800993565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4FAFBC2091A15800993565 /* Main.storyboard */; };
 		AE4FAFC02091A16200993565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4FAFBF2091A16200993565 /* Assets.xcassets */; };
 		AE4FAFC32091A16200993565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4FAFC12091A16200993565 /* LaunchScreen.storyboard */; };
+		AE4FAFCB2097033400993565 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FAFCA2097033400993565 /* Concentration.swift */; };
+		AE4FAFCD2097040000993565 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FAFCC2097040000993565 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AE4FAFBF2091A16200993565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4FAFC22091A16200993565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4FAFC42091A16200993565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4FAFCA2097033400993565 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		AE4FAFCC2097040000993565 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		AE4FAFB72091A15800993565 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				AE4FAFCC2097040000993565 /* Card.swift */,
+				AE4FAFCA2097033400993565 /* Concentration.swift */,
 				AE4FAFB82091A15800993565 /* AppDelegate.swift */,
 				AE4FAFBA2091A15800993565 /* ViewController.swift */,
 				AE4FAFBC2091A15800993565 /* Main.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				AE4FAFBB2091A15800993565 /* ViewController.swift in Sources */,
 				AE4FAFB92091A15800993565 /* AppDelegate.swift in Sources */,
+				AE4FAFCB2097033400993565 /* Concentration.swift in Sources */,
+				AE4FAFCD2097040000993565 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
