@@ -113,4 +113,13 @@ Assert to protect your API.
 - `enum`
   - value type (passed around by copying)
 - `protocol`
-  - a declaration of functionality only
+  - a declaration of functionality only.
+  - a collection of method and property declarations.
+  ```
+  protocol SomeProtocol: InheritedProtocol1, InheritedProtocol2 {
+    var someProperty: Int { get set }
+    func aMethod(arg1: Double) -> SomeType
+    mutating func changeIt()
+    init(arg: Type)
+  }
+  ```
